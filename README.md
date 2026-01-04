@@ -12,11 +12,14 @@ This project simulates a real-world, end-to-end data analytics workflow. Startin
 
 * **Source:** Customer shopping transaction data
 * **Rows:** ~3,900 records
-* **Features include:**
 
-  * Customer demographics (age, gender, location, subscription status)
-  * Purchase details (product, category, price, season, size, color)
-  * Shopping behavior (discounts, shipping type, purchase frequency, ratings)
+**Features include:**
+
+* Customer demographics (age, gender, location, subscription status)
+* Purchase details (product, category, price, season, size, color)
+* Shopping behavior (discounts, shipping type, purchase frequency, ratings)
+
+The dataset is stored in the `/data` folder.
 
 ---
 
@@ -25,7 +28,7 @@ This project simulates a real-world, end-to-end data analytics workflow. Startin
 * **Python (Jupyter Notebook, pandas)** – Data loading, cleaning, and EDA
 * **PostgreSQL & pgAdmin 4** – SQL-based data analysis
 * **Power BI** – Interactive dashboard and visualization
-* **Gamma** – Business presentation (PPT)
+* **Gamma** – Business presentation (PowerPoint)
 * **Excel** – Original raw dataset
 
 ---
@@ -61,11 +64,13 @@ This project simulates a real-world, end-to-end data analytics workflow. Startin
   * Impact of discounts and shipping types
   * Customer segmentation based on purchase history
 
+SQL scripts are available in the `/sql` folder.
+
 ### 5️⃣ Dashboard & Reporting
 
-* Built an interactive **Power BI dashboard** to visualize trends and KPIs
+* Built an interactive Power BI dashboard to visualize trends and KPIs
 * Summarized findings in a written analysis report
-* Created a professional presentation using **Gamma** to communicate insights and recommendations
+* Created a professional presentation using Gamma to communicate insights and recommendations
 
 ---
 
@@ -78,7 +83,8 @@ The Power BI dashboard highlights:
 * Subscription and loyalty trends
 * Key purchasing behaviors that drive revenue
 
-*(Dashboard screenshots can be found in both the analysis PDF and the PowerPoint.)*
+The interactive Power BI file (`.pbix`) and a preview image are available in the `/dashboard` folder.
+Dashboard visuals are also included in the PDF report and PowerPoint presentation.
 
 ---
 
@@ -101,14 +107,14 @@ The Power BI dashboard highlights:
    pip install pandas psycopg2 sqlalchemy
    ```
 4. Update database connection credentials in the notebook
-5. Run the notebook to clean and load data into PostgreSQL
+5. Run the notebook to clean data and load it into PostgreSQL
 6. Execute SQL queries from the `/sql` folder
-7. Open the Power BI file to explore the dashboard
+7. Open the Power BI file in the `/dashboard` folder to explore the dashboard
 
 ---
 
 ## Notes
 
-This project was created for learning and portfolio purposes to demonstrate practical data analytics skills, including Python, SQL, visualization, and business communication.
+This project was created for learning and portfolio purposes to demonstrate practical data analytics skills, including Python, SQL, data visualization, and business communication.
 
 ---
